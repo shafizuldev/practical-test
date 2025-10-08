@@ -1,7 +1,3 @@
-Absolutely 👍 — here’s your text fully converted into **valid Markdown** format (ready to use in a `README.md` file).
-All code blocks, tables, and spacing are properly formatted for GitHub or GitLab.
-
----
 
 ````markdown
 ## 🧩 Installation & Setup
@@ -60,8 +56,6 @@ This creates a **`consents`** table for storing user acceptances.
 | guid        | varchar(255) | Unique user identifier      |
 | accepted_at | datetime     | Timestamp of acceptance     |
 | version     | int          | Consent version (default 1) |
-| ip_address  | varchar(255) | User’s IP address           |
-| user_agent  | text         | Browser user agent string   |
 
 ---
 
@@ -97,12 +91,4 @@ To seed the admin user:
 
 ```bash
 php artisan db:seed --class=AdminSeeder
-```
-
-```
-
----
-
-✅ You can paste this **directly into your `README.md`** file — it will render perfectly.  
-Would you like me to append a short **“Project Overview”** section above this (like a one-paragraph intro)? It makes your submission more complete and polished.
 ```
